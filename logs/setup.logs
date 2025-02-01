@@ -1,0 +1,329 @@
+(base) PS C:\Users\sathish\Downloads\Project_Med> cd .\Medical-Project\
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project> cd .\backend\api-gateway\
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway> npm install
+npm error code ENOENT
+npm error syscall open
+npm error path C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\sathish\AppData\Local\npm-cache\_logs\2025-01-29T20_34_08_172Z-debug-0.log
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway> npx create-next-app@latest web --ts
+Need to install the following packages:
+create-next-app@15.1.6
+Ok to proceed? (y) y
+
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
+√ What import alias would you like configured? ... @/*
+Creating a new Next.js app in C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\web.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+- @eslint/eslintrc
+
+
+added 374 packages, and audited 375 packages in 21s
+
+142 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created web at C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\web
+
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway> cd web
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\web> ls
+
+
+    Directory: C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\web
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/29/2025   2:44 PM                node_modules
+d-----         1/29/2025   2:43 PM                public
+d-----         1/29/2025   2:43 PM                src
+-a----         1/29/2025   2:43 PM            480 .gitignore
+-a----         1/29/2025   2:43 PM            393 eslint.config.mjs
+-a----         1/29/2025   2:43 PM            211 next-env.d.ts
+-a----         1/29/2025   2:43 PM            133 next.config.ts
+-a----         1/29/2025   2:44 PM         205823 package-lock.json
+-a----         1/29/2025   2:43 PM            564 package.json
+-a----         1/29/2025   2:43 PM            135 postcss.config.mjs
+-a----         1/29/2025   2:43 PM           1450 README.md
+-a----         1/29/2025   2:43 PM            393 tailwind.config.ts
+-a----         1/29/2025   2:43 PM            602 tsconfig.json
+
+
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\web> ls
+ls : Cannot find path 'C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\web' because it does not exist.
+At line:1 char:1
++ ls
++ ~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\sathis...api-gateway\web:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\web> cd ..
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway> cd ..
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend> cd ..
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project> ls
+
+
+    Directory: C:\Users\sathish\Downloads\Project_Med\Medical-Project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/29/2025   2:25 PM                analytics
+d-----         1/29/2025   2:46 PM                apps
+d-----         1/29/2025   2:25 PM                backend
+d-----         1/29/2025   2:25 PM                devops
+d-----         1/29/2025   2:25 PM                documentation
+d-----         1/29/2025   2:25 PM                mlops
+d-----         1/29/2025   2:25 PM                testing
+
+
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project> cd .\apps\web\ 
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\apps\web> ls
+
+
+    Directory: C:\Users\sathish\Downloads\Project_Med\Medical-Project\apps\web
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/29/2025   2:44 PM                node_modules
+d-----         1/29/2025   2:43 PM                public
+d-----         1/29/2025   2:46 PM                src
+-a----         1/29/2025   2:43 PM            480 .gitignore
+-a----         1/29/2025   2:43 PM            393 eslint.config.mjs
+-a----         1/29/2025   2:43 PM            211 next-env.d.ts
+-a----         1/29/2025   2:43 PM            133 next.config.ts
+-a----         1/29/2025   2:44 PM         205823 package-lock.json
+-a----         1/29/2025   2:43 PM            564 package.json
+-a----         1/29/2025   2:43 PM            135 postcss.config.mjs
+-a----         1/29/2025   2:43 PM           1450 README.md
+-a----         1/29/2025   2:43 PM            393 tailwind.config.ts
+-a----         1/29/2025   2:43 PM            602 tsconfig.json
+
+
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\apps\web> npx create-next-app@latest web --ts
+? Would you like to use ESLint? » No / Yes
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\apps\web> npm install @mui/material @mui/icons-material axios react-redux @reduxjs/toolkit react-router-dom firebase
+
+added 133 packages, and audited 508 packages in 21s
+
+153 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\apps\web> npm install --save-dev jest @testing-library/react @testing-library/jest-dom
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+added 262 packages, and audited 770 packages in 16s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\apps\web> ls
+
+
+    Directory: C:\Users\sathish\Downloads\Project_Med\Medical-Project\apps\web
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/29/2025   2:48 PM                node_modules
+d-----         1/29/2025   2:43 PM                public
+d-----         1/29/2025   2:46 PM                src
+-a----         1/29/2025   2:43 PM            480 .gitignore
+-a----         1/29/2025   2:43 PM            393 eslint.config.mjs
+-a----         1/29/2025   2:43 PM            211 next-env.d.ts
+-a----         1/29/2025   2:43 PM            133 next.config.ts
+-a----         1/29/2025   2:48 PM         403250 package-lock.json
+-a----         1/29/2025   2:48 PM            885 package.json
+-a----         1/29/2025   2:43 PM            135 postcss.config.mjs
+-a----         1/29/2025   2:43 PM           1450 README.md
+-a----         1/29/2025   2:43 PM            393 tailwind.config.ts
+-a----         1/29/2025   2:43 PM            602 tsconfig.json
+
+
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\apps\web> npm run dev
+
+> web@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.1.6 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.56.1:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 8.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.1s
+ GET / 200 in 2671ms
+ ✓ Compiled /favicon.ico in 203ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 412ms
+Terminate batch job (Y/N)? 
+y
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\apps\web> cd ../..
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project> ls
+
+
+    Directory: C:\Users\sathish\Downloads\Project_Med\Medical-Project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/29/2025   2:25 PM                analytics
+d-----         1/29/2025   2:46 PM                apps
+d-----         1/29/2025   2:25 PM                backend
+d-----         1/29/2025   2:25 PM                devops
+d-----         1/29/2025   2:25 PM                documentation
+d-----         1/29/2025   2:25 PM                mlops
+d-----         1/29/2025   2:25 PM                testing
+
+
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project> cd .\backend\api-gateway\
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway> npm i -g @nestjs/cli
+
+added 262 packages in 7s
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway> nest new api-gateway
+✨  We will scaffold your app in a few seconds..
+
+✔ Which package manager would you ❤️ to use? npm
+CREATE api-gateway/.prettierrc (54 bytes)
+CREATE api-gateway/eslint.config.mjs (890 bytes)
+CREATE api-gateway/nest-cli.json (179 bytes)
+CREATE api-gateway/package.json (2111 bytes)
+CREATE api-gateway/README.md (5304 bytes)
+CREATE api-gateway/tsconfig.build.json (101 bytes)
+CREATE api-gateway/tsconfig.json (565 bytes)
+CREATE api-gateway/src/app.controller.ts (286 bytes)
+CREATE api-gateway/src/app.module.ts (259 bytes)
+CREATE api-gateway/src/app.service.ts (150 bytes)
+CREATE api-gateway/src/main.ts (236 bytes)
+CREATE api-gateway/src/app.controller.spec.ts (639 bytes)
+CREATE api-gateway/test/jest-e2e.json (192 bytes)
+CREATE api-gateway/test/app.e2e-spec.ts (699 bytes)
+
+✔ Installation in progress... ☕
+
+🚀  Successfully created project api-gateway
+👉  Get started with the following commands:
+
+$ cd api-gateway
+$ npm run start
+
+
+                          Thanks for installing Nest 🙏
+                 Please consider donating to our open collective
+                        to help us maintain this package.
+
+
+               🍷  Donate: https://opencollective.com/nest
+
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway> cd api-gateway
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\api-gateway> npm install @nestjs/graphql @nestjs/apollo graphql apollo-server-express
+npm warn deprecated apollo-datasource@3.3.2: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm warn deprecated apollo-server-errors@3.3.1: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm warn deprecated apollo-server-types@3.8.0: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm warn deprecated apollo-server-plugin-base@3.7.2: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm warn deprecated lodash.omit@4.5.0: This package is deprecated. Use destructuring assignment syntax instead.
+npm warn deprecated apollo-server-env@4.2.1: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm warn deprecated apollo-reporting-protobuf@3.4.0: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm warn deprecated @apollo/server-plugin-landing-page-graphql-playground@4.0.1: The use of GraphQL Playground in Apollo Server was supported in previous versions, but this is no longer the case as of December 31, 2022. This package exists for v4 migration purposes only. We do not intend to resolve security issues or other bugs with this package if they arise, so please migrate away from this to [Apollo Server's default Explorer](https://www.apollographql.com/docs/apollo-server/api/plugin/landing-pages) as soon as possible.
+npm warn deprecated apollo-server-express@3.13.0: The `apollo-server-express` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm warn deprecated subscriptions-transport-ws@0.11.0: The `subscriptions-transport-ws` package is no longer maintained. We recommend you use `graphql-ws` instead. For help migrating Apollo software to `graphql-ws`, see https://www.apollographql.com/docs/apollo-server/data/subscriptions/#switching-from-subscriptions-transport-ws    For general help using `graphql-ws`, see https://github.com/enisdenjo/graphql-ws/blob/master/README.md
+npm warn deprecated apollo-server-core@3.13.0: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+
+added 148 packages, removed 19 packages, changed 19 packages, and audited 932 packages in 6s
+
+148 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\api-gateway> npm install @nestjs/passport passport passport-jwt @nestjs/jwt
+
+added 19 packages, and audited 951 packages in 2s
+
+149 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\api-gateway> npm install @nestjs/typeorm typeorm pg class-validator class-transformer
+
+added 48 packages, and audited 999 packages in 6s
+
+156 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\api-gateway> npm install --save-dev jest supertest
+
+up to date, audited 999 packages in 937ms
+
+156 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\api-gateway> npm run start
+
+> api-gateway@0.0.1 start
+> nest start
+
+[Nest] 15920  - 01/29/2025, 2:52:14 PM     LOG [NestFactory] Starting Nest application...
+[Nest] 15920  - 01/29/2025, 2:52:14 PM     LOG [InstanceLoader] AppModule dependencies initialized +8ms
+[Nest] 15920  - 01/29/2025, 2:52:14 PM     LOG [RoutesResolver] AppController {/}: +5ms
+[Nest] 15920  - 01/29/2025, 2:52:14 PM     LOG [RouterExplorer] Mapped {/, GET} route +3ms
+[Nest] 15920  - 01/29/2025, 2:52:14 PM     LOG [NestApplication] Nest application successfully started +2ms
+Terminate batch job (Y/N)? y
+(base) PS C:\Users\sathish\Downloads\Project_Med\Medical-Project\backend\api-gateway\api-gateway> npm test
+
+> api-gateway@0.0.1 test
+> jest
+
+ PASS  src/app.controller.spec.ts
+  AppController
+    root                                                                                                                                                                                                                                                              
+      √ should return "Hello World!" (6 ms)                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                      
+Test Suites: 1 passed, 1 total                                                                                                                                                                                                                                        
+Tests:       1 passed, 1 total                                                                                                                                                                                                                                        
+Snapshots:   0 total
+Time:        6.724 s
+Ran all test suites.
